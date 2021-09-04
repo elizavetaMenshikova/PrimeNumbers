@@ -19,7 +19,7 @@ public class PrimeNumbers {
             System.out.println("Число должно быть больше 0");
             throw new IllegalArgumentException();
         }
-        if (number < 2) {
+        if (number < 4) {
             return true;
         }
         for (int i = 2; i < number; i++) {
